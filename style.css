@@ -1,0 +1,69 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+@font-face {
+    font-family: Young Serif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+}
+
+#face {
+    max-width: 100%;
+    border-radius: 12px;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    margin: 5% 26%;
+    padding: 3%;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%)
+}
+
+.head {
+    font-family: Young Serif;
+    color: hsl(14, 45%, 36%); 
+    font-size: 20px;
+    
+}
+
+#main {
+    color: hsl(24, 5%, 18%);
+    font-size: 30px;
+}
+
+#prep {
+    margin: 1%;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 1%;
+}
+#sub {
+    color: hsl(332, 51%, 32%);
+}
+
+li {
+    margin:1%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse ;
+}
+
+tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td{
+    padding: 10px;
+}
+
+#last {
+    border-bottom: 0px ;
+}
